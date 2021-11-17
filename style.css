@@ -1,0 +1,217 @@
+/* The css is used to style the website */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-color: blue;
+    height: 80vh;
+    min-height: 600px;
+    background-image: url('https://i.ibb.co/HNvHSyV/image-header.jpg');
+    background-position: center bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu{
+    display: flex;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+}
+
+.menu span{
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.contact {
+    background-color: white;
+    color: black;
+    padding:8px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+}
+
+.contact:hover{
+    background-color: antiquewhite;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    flex-grow: 2;
+    color: white;
+    font-weight: bold;
+}
+
+.arrow{
+    margin-top: 60px;
+}
+
+.section1, .section2 {
+    display: flex;
+    height: 350px;
+}
+
+.section1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section1 .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 .text-container {
+    width: 70%;
+
+}
+
+.left h1 {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.left p {
+    color: #848391;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 16px;
+}
+
+.left .button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.left div img{
+    width: 150px;
+}
+
+.left, .right {
+    flex: 1;
+}
+
+.left img, .right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.client-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.client-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fffbf8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px
+}
+
+.testimonials h1 {
+    color: #A0A1A2;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.clients {
+    display: flex;
+    justify-content: space-between;
+}
+
+.client {
+    display: flex;
+    flex-direction: column;
+    flex: 0.3;
+    align-items: center;
+}
+
+.client .client-image {
+    margin-bottom: 30px;
+}
+
+.client p {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #848391;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.client .details {
+    text-align: center;
+}
+
+.client h4{
+    color: #A0A1A2;
+    margin-top: 8px;
+}
+
+.examples {
+    display: flex;
+}
+
+.examples div {
+    flex: 0.25;
+}
+
+.examples img {
+    width: 100%;
+}
+
+.footer {
+    background-color: #90d4c5;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .logo {
+    margin-top: 70px;
+    color: #2d7465; ;
+}
+
+.footer-navigation{
+    color: #4f9485;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.footer-navigation span {
+    padding: 8px;
+}
